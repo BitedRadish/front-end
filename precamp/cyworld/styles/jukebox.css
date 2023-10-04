@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+.wrapper {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.wrapper__header {
+    width: 100%;
+    height: 48px;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper__title {
+    display: flex;
+    align-items: center;
+}
+.title {
+    color: #55b2e4;
+    font-size: 13px;
+    font-weight: 700;
+}
+.subtitle {
+    font-size: 8px;
+    padding-left: 5px;
+}
+.dividedLine {
+    width: 100%;
+    border-top: 1px solid gray;
+}
+
+.header__album {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.album {
+    width: 120px;
+    height: 158px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.album__title {
+    width: 100%;
+    font-size: 11px;
+    font-weight: 700;
+    text-align: center;
+    padding: 5px 0px;
+}
+
+.album__singer {
+    text-align: center;
+    width: 100%;
+    font-size: 10px;
+    font-weight: 700;
+    color: #999999;
+}
+
+.small {
+    width: 120px;
+    height: 120px;
+}
+
+.wrapper__body {
+    width: 100%;
+    height: 146px;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper__title {
+    width: 100%;
+}
+
+.wrapper__chart {
+    width: 100%;
+    height: 120px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.chart__menu,
+.chart__songs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 20px;
+    font-size: 10px;
+    font-weight: 700;
+}
+.chart__songs {
+    border-bottom: 1px dotted #999999;
+}
+
+.chart__menu {
+    background-color: rgb(223, 220, 220);
+    border-top: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+}
+
+.menu__checkbox {
+    padding: 2px 16px 0px 16px;
+}
+
+.rank {
+    width: 40px;
+    text-align: center;
+}
+.song__title,
+.artist {
+    color: #0f465e;
+}
+
+.song__title {
+    width: 280px;
+}
+.another {
+    color: #999999;
+}
